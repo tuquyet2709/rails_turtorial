@@ -1,0 +1,10 @@
+vi:
+  static_pages:
+    home:
+      title: "Trang mẫu - Trang chủ"
+      full_name: "Nguyễn Tư Quyết"
+      author: "Tác giả"
+    help:
+      title: "Trang mẫu - Trợ giúp"
+      full_name: "Nguyễn Tư Quyết"
+      author: "Tác giả"
