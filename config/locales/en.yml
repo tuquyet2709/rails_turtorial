@@ -1,2 +1,10 @@
 en:
-  hello: "Hello world"
+  static_pages:
+    home:
+      title: "Sample App - home"
+      full_name: "Nguyen Tu Quyet"
+      author: "Author"
+    help:
+      title: "Sample App - help"
+      author: "Author"
+      full_name: "Nguyen Tu Quyet"
