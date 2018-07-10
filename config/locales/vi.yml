@@ -1,10 +1,21 @@
 vi:
   static_pages:
+    app_name: "Trang mẫu"
+    home_nav: "Trang chủ"
+    help_nav: "Trợ giúp"
+    login_nav: "Đăng nhập"
     home:
       title: "Trang mẫu - Trang chủ"
       full_name: "Nguyễn Tư Quyết"
       author: "Tác giả"
+      about: "Thông tin"
+      contact: "Liên hệ"
+      news: "Tin tức"
+      sign_up: "Đăng nhập ngay!"
     help:
       title: "Trang mẫu - Trợ giúp"
       full_name: "Nguyễn Tư Quyết"
       author: "Tác giả"
+      about: "Thông tin"
+      contact: "Liên hệ"
+      news: "Tin tức"

@@ -1,14 +1,25 @@
 en:
   static_pages:
+    app_name: "sampleapp"
+    home_nav: "Home"
+    help_nav: "Help"
+    login_nav: "Login"
     home:
       page_name: "Home"
       title: "Sample App - home"
       full_name: "Nguyen Tu Quyet"
       author: "Author"
       base_title: "Ruby on Rails Tutorial Sample App"
+      about: "About"
+      contact: "Contact"
+      news: "News"
+      sign_up: "Sign up now!"
     help:
       page_name: "Help"
       title: "Sample App - help"
       author: "Author"
       full_name: "Nguyen Tu Quyet"
       base_title: "Ruby on Rails Tutorial Sample App"
+      about: "About"
+      contact: "Contact"
+      news: "News"
