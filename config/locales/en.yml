@@ -23,3 +23,18 @@ en:
       about: "About"
       contact: "Contact"
       news: "News"
+
+  users:
+    new:
+      confirmation: "Confirmation"
+      create: "Create my account"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      sign_up: "Sign up"
+  sign_up:
+    welcome: "Welcome to the Sample App!"
+
+  errs:
+    the_form_contains: "The form contains"
+    error: "error"

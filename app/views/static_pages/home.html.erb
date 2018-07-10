@@ -7,6 +7,5 @@
     <%= link_to t(".full_name"), "http://www.facebook.com/tuquyet.hedspi" %>
     <p><%= l Time.now, format: :short %></p>
   </p>
-  <%= link_to t(".sign_up"), "#", class: "btn btn-lg btn-primary" %>
+  <%= link_to t(".sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
 </div>
-<%= link_to image_tag("rails.png", alt: "Rails logo"), "http://rubyonrails.org/" %>

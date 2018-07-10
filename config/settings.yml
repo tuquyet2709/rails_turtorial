@@ -1,2 +1,6 @@
-max_email_length: 256
-max_password_length: 20
+maximum:
+  max_email_length: 256
+  max_name_length: 50
+
+minimum:
+  min_password_length: 6
