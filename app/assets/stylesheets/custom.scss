@@ -6,6 +6,13 @@ $black-gray: #555;
 $black-gray-medium: #222;
 $gray: #4a4a4a;
 $white: #fff;
+$red: red;
+
+@mixin box_sizing {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 body {
   padding-top: 60px;
@@ -49,10 +56,6 @@ p {
   }
 }
 
-img {
-  display: none;
-}
-
 footer {
   border-top: 1px solid #d2d2d2;
   color: $light-gray;
@@ -78,5 +81,81 @@ footer {
       float: left;
       margin-left: 15px;
     }
+  }
+}
+
+aside {
+  section {
+    margin-top: 20px;
+    padding: 10px 0;
+
+    &:first-child {
+      border: 0;
+      padding-top: 0;
+    }
+
+    span {
+      display: block;
+      line-height: 1;
+      margin-bottom: 3px;
+    }
+
+    h1 {
+      font-size: 2em;
+      letter-spacing: -1px;
+      margin-bottom: 3px;
+      margin-top: 0;
+      text-align: left;
+    }
+
+    .user_info {
+      margin-top: 20px;
+    }
+  }
+}
+
+.gravatar {
+  float: left;
+  margin-right: 15px;
+}
+
+.gravatar_edit {
+  margin-top: 15px;
+}
+
+/* forms */
+
+input, textarea, select, .uneditable-input {
+  border: 1px solid #bbb;
+  margin-bottom: 15px;
+  padding: 2px;
+  width: 100%;
+  @include box_sizing;
+}
+
+input {
+  height: 30px !important;
+}
+
+.sign-up-new {
+  font-size: 45px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.error_explanation {
+  color: $red;
+
+  ul {
+    color: $red;
+    margin: 0 0 30px 0;
+  }
+}
+
+.field_with_errors {
+  @extend .has-error;
+
+  .form-control {
+    color: $state-danger-text;
   }
 }

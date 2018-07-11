@@ -19,3 +19,20 @@ vi:
       about: "Thông tin"
       contact: "Liên hệ"
       news: "Tin tức"
+
+  users:
+      new:
+        confirmation: "Nhập lại mật khẩu"
+        create: "Tạo tài khoản"
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        sign_up: "Đăng kí"
+
+  sign_up:
+    welcome: "Chào mừng bạn đến với App mẫu"
+
+  errs:
+    the_form_contains: "Form này có"
+    error: "Lỗi"
+
