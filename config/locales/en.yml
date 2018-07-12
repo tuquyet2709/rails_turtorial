@@ -4,6 +4,11 @@ en:
     home_nav: "Home"
     help_nav: "Help"
     login_nav: "Login"
+    users_nav: "Users"
+    account_nav: "Account"
+    profile_dropdown: "Profile"
+    settings_dropdown: "Settings"
+    logout_dropdown: "Log out"
     home:
       page_name: "Home"
       title: "Sample App - home"
@@ -38,3 +43,12 @@ en:
   errs:
     the_form_contains: "The form contains"
     error: "error"
+
+  sessions:
+    new:
+      login: "Login"
+      new_user: "New user?"
+      sign_up_now: "Sign up now!"
+
+    create:
+      invalid_message: "Invalid email/password combination"

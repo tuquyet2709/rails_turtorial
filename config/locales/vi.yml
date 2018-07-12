@@ -4,6 +4,11 @@ vi:
     home_nav: "Trang chủ"
     help_nav: "Trợ giúp"
     login_nav: "Đăng nhập"
+    users_nav: "Người dùng"
+    account_nav: "Tài khoản"
+    profile_dropdown: "Thông tin"
+    settings_dropdown: "Cài đặt"
+    logout_dropdown: "Đăng xuất"
     home:
       title: "Trang mẫu - Trang chủ"
       full_name: "Nguyễn Tư Quyết"
@@ -36,3 +41,11 @@ vi:
     the_form_contains: "Form này có"
     error: "Lỗi"
 
+  sessions:
+      new:
+        login: "Đăng nhập"
+        new_user: "Người dùng mới?"
+        sign_up_now: "Tạo tài khoản ngay"
+
+      create:
+        invalid_message: "Sai email hoặc password"
