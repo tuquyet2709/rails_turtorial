@@ -50,6 +50,9 @@ en:
     destroy:
       delete_noti: "User deleted"
     cant_find_user: "Can't find user"
+    create:
+      check_your_email: "Please check your email to activate your account."
+      error: "Error, please try again"
 
   sign_up:
     welcome: "Welcome to the Sample App!"
@@ -67,3 +70,15 @@ en:
 
     create:
       invalid_message: "Invalid email/password combination"
+      account_not_activated: "Account not activated. Check your email for the activation link."
+
+  account_activation:
+    success_activate: "Active successful"
+    invalid_activate: "Invalid activation link"
+
+  user_mailer:
+    account_activation_subject: "Account activation"
+    password_reset_subject: "Password reset"
+    account_activation:
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"

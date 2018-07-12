@@ -50,6 +50,9 @@ vi:
     destroy:
        delete_noti: "Đã xoá user"
     cant_find_user: "Không thể xoá user"
+    create:
+      check_your_email: "Kiểm tra email để kích hoạt tài khoản"
+      error: "Lỗi, hãy thử lại"
 
   sign_up:
     welcome: "Chào mừng bạn đến với App mẫu"
@@ -59,11 +62,23 @@ vi:
     error: "Lỗi"
 
   sessions:
-      new:
-        login: "Đăng nhập"
-        new_user: "Người dùng mới?"
-        sign_up_now: "Tạo tài khoản ngay"
-        remember_me: "Nhớ tôi"
+    new:
+      login: "Đăng nhập"
+      new_user: "Người dùng mới?"
+      sign_up_now: "Tạo tài khoản ngay"
+      remember_me: "Nhớ tôi"
 
-      create:
-        invalid_message: "Sai email hoặc password"
+    create:
+      invalid_message: "Sai email hoặc password"
+      account_not_activated: "Tài khoản chưa được kích hoạt. Kiểm tra link kích hoạt trong email"
+
+  account_activation:
+    success_activate: "Kích hoạt thành công"
+    invalid_activate: "Sai link kích hoạt"
+
+  user_mailer:
+    account_activation_subject: "Kích hoạt tài khoản"
+    password_reset_subject: "Tạo lại password"
+    account_activation:
+      welcome: "Chào mừng đến với App mẫu! Click vào link dưới để kích hoạt tài khoản:"
+      activate: "Kích hoạt"
