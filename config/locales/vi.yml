@@ -46,6 +46,7 @@ vi:
         login: "Đăng nhập"
         new_user: "Người dùng mới?"
         sign_up_now: "Tạo tài khoản ngay"
+        remember_me: "Nhớ tôi"
 
       create:
         invalid_message: "Sai email hoặc password"
