@@ -31,12 +31,26 @@ en:
 
   users:
     new:
+      sign_up: "Sign up"
+      create_account: "Create my account"
+    index:
+      all_users: "All users"
+    form:
       confirmation: "Confirmation"
-      create: "Create my account"
       name: "Name"
       email: "Email"
       password: "Password"
-      sign_up: "Sign up"
+    edit:
+      save_changes: "Save changes"
+      update_your_profile: "Update your profile"
+      change: "change"
+    update:
+      profile_updated: "Profile updated"
+      flash_login: "Please log in."
+    destroy:
+      delete_noti: "User deleted"
+    cant_find_user: "Can't find user"
+
   sign_up:
     welcome: "Welcome to the Sample App!"
 
