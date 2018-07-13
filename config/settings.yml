@@ -4,3 +4,7 @@ maximum:
 
 minimum:
   min_password_length: 6
+
+gravatar:
+  gravatar_size: 80
+  gravatar_index_size : 50
