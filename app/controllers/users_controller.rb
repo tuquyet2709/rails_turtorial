@@ -5,11 +5,14 @@ class UsersController < ApplicationController
   before_action :find_user, only: [:show, :destroy, :edit, :update]
 
   def show
+    return if @user&.activated == true
     redirect_to signup_path if @user.nil?
   end
 
   def index
-    @users = User.paginate page: params[:page], per_page: 5
+    @users = User.where(activated: true)
+                 .paginate page: params[:page],
+                           per_page: Settings.maximum.max_user_per_page
   end
 
   def new
@@ -19,25 +22,25 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_param
     if @user.save
-      log_in @user
-      flash[:success] = t("sign_up.welcome")
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t("users.create.check_your_email")
+      redirect_to root_url
     else
+      flash.now[:danger] = t("users.create.error")
       render :new
     end
   end
 
   def destroy
     @user.destroy
-    flash[:success] = t(".delete_noti")
+    flash[:success] = t("users.destroy.delete_noti")
     redirect_to users_url
   end
 
-  def edit
-  end
+  def edit; end
 
   def update
-    flash[:success] = t("users.update.profile_updated")
+    flash[:success] = t "users.update.profile_updated"
     if @user.update_attributes user_param
       redirect_to @user
     else
@@ -48,7 +51,7 @@ class UsersController < ApplicationController
   def logged_in_user
     return if logged_in?
     store_location
-    flash[:danger] = t("users.update.flash_login")
+    flash[:danger] = t "users.update.flash_login"
     redirect_to login_path
   end
 
@@ -59,6 +62,10 @@ class UsersController < ApplicationController
 
   def admin_user
     redirect_to root_path unless current_user.admin?
+  end
+
+  def send_activation_email
+    UserMailer.account_activation(self).deliver_now
   end
 
   private
@@ -75,5 +82,4 @@ class UsersController < ApplicationController
       flash[:danger] = t "users.cant_find_user"
     end
   end
-
 end
