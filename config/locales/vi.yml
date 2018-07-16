@@ -49,7 +49,7 @@ vi:
       flash_login: "Xin hãy đăng nhập."
     destroy:
        delete_noti: "Đã xoá user"
-    cant_find_user: "Không thể xoá user"
+    cant_find_user: "Không thể tìm thấy user"
     create:
       check_your_email: "Kiểm tra email để kích hoạt tài khoản"
       error: "Lỗi, hãy thử lại"
@@ -63,10 +63,13 @@ vi:
 
   sessions:
     new:
+      email: "Email"
+      password: "Mật khẩu"
       login: "Đăng nhập"
       new_user: "Người dùng mới?"
       sign_up_now: "Tạo tài khoản ngay"
       remember_me: "Nhớ tôi"
+      forgot_password: "(Quên mật khẩu?)"
 
     create:
       invalid_message: "Sai email hoặc password"
@@ -82,3 +85,28 @@ vi:
     account_activation:
       welcome: "Chào mừng đến với App mẫu! Click vào link dưới để kích hoạt tài khoản:"
       activate: "Kích hoạt"
+    password_reset:
+      password_reset: "Tạo lại password"
+      to_reset_click: "Để tạo lại password, click vào link sau:"
+      this_link_will_expire: "Link chỉ có hiệu lực trong 2 giờ."
+      ignore_noti: "Nếu bạn không gửi yêu cầu reset mật khẩu, hãy bỏ qua email này và mật khẩu của bạn vẫn
+        được giữ nguyên."
+      reset_password: "Tạo lại"
+
+  password_resets:
+    new:
+      forgot_password: "Forgot password"
+      submit: "Hoàn thành"
+    create:
+      email_address_not_found: "Không tìm thấy email"
+      email_send_with_password_reset: "Đã gửi email kèm theo hướng dẫn đặt lại mật khẩu"
+    edit:
+      reset_password: "Đặt lại mật khẩu"
+      password: "Mật khẩu"
+      confirmation: "Nhập lại mật khẩu"
+      update_password: "Update mật khẩu"
+    update:
+      cant_be_empty: "không được rỗng"
+      password_has_been_reset: "Mật khẩu đã được đặt lại."
+    check_expiration:
+      password_expired: "Mật khẩu đã hết hạn."

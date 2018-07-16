@@ -63,10 +63,13 @@ en:
 
   sessions:
     new:
+      email: "Email"
+      password: "Password"
       login: "Login"
       new_user: "New user?"
       sign_up_now: "Sign up now!"
       remember_me: "Remember me on this computer"
+      forgot_password: "(Forgot password?)"
 
     create:
       invalid_message: "Invalid email/password combination"
@@ -82,3 +85,28 @@ en:
     account_activation:
       welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate: "Activate"
+    password_reset:
+      password_reset: "Password reset"
+      to_reset_click: "To reset your password click the link below:"
+      this_link_will_expire: "This link will expire in two hours."
+      ignore_noti: "If you did not request your password to be reset, please ignore this email and
+        your password will stay as it is."
+      reset_password: "Reset password"
+
+  password_resets:
+    new:
+      forgot_password: "Forgot password"
+      submit: "Submit"
+    create:
+      email_address_not_found: "Email address not found"
+      email_send_with_password_reset: "Email sent with password reset instructions"
+    edit:
+      reset_password: "Reset password"
+      password: "Password"
+      confirmation: "Confirmation"
+      update_password: "Update password"
+    update:
+      cant_be_empty: "can't be empty"
+      password_has_been_reset: "Password has been reset."
+    check_expiration:
+      password_expired: "Password reset has expired."
