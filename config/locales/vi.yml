@@ -19,6 +19,7 @@ vi:
       contact: "Liên hệ"
       news: "Tin tức"
       sign_up: "Đăng nhập ngay!"
+      feed: "Các tin đã đăng"
     help:
       page_name: "Trợ giúp"
       title: "Trang mẫu - Trợ giúp"
@@ -119,7 +120,7 @@ vi:
       ago: "trước."
       delete: "xoá"
       you_sure: "Bạn chắc không?"
-      micropost_created: "Đã tạo Vtin!"
+      micropost_created: "Đã tạo tin!"
       micropost_deleted: "Đã xoá tin"
     should_be_less_than: "phải nhỏ hơn $%{size}MB"
 

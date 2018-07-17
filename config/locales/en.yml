@@ -19,6 +19,7 @@ en:
       contact: "Contact"
       news: "News"
       sign_up: "Sign up now!"
+      feed: "Micropost Feed"
     help:
       page_name: "Help"
       title: "Sample App - help"
@@ -121,7 +122,7 @@ en:
       you_sure: "You sure?"
       micropost_created: "Micropost created!"
       micropost_deleted: "Micropost deleted"
-    should_be_less_than: "should be less than $%{size}MB"
+    should_be_less_than: "should be less than %{size}MB"
 
   shared:
     micropost_form:

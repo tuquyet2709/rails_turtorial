@@ -5,8 +5,13 @@ class UsersController < ApplicationController
   before_action :find_user, only: [:show, :destroy, :edit, :update]
 
   def show
-    return if @user&.activated == true
-    redirect_to signup_path if @user.nil?
+    if @user&.activated
+      @microposts = @user.microposts.paginate(page: params[:page],
+        per_page: Settings.maximum.max_user_per_page)
+      return @user
+    else
+      redirect_to signup_path
+    end
   end
 
   def index
@@ -46,13 +51,6 @@ class UsersController < ApplicationController
     else
       render :edit
     end
-  end
-
-  def logged_in_user
-    return if logged_in?
-    store_location
-    flash[:danger] = t "users.update.flash_login"
-    redirect_to login_path
   end
 
   def correct_user
