@@ -53,6 +53,8 @@ en:
     create:
       check_your_email: "Please check your email to activate your account."
       error: "Error, please try again"
+    show:
+      microposts: "Microposts"
 
   sign_up:
     welcome: "Welcome to the Sample App!"
@@ -110,3 +112,21 @@ en:
       password_has_been_reset: "Password has been reset."
     check_expiration:
       password_expired: "Password reset has expired."
+
+  microposts:
+    micropost:
+      posted: "Posted"
+      ago: "ago."
+      delete: "delete"
+      you_sure: "You sure?"
+      micropost_created: "Micropost created!"
+      micropost_deleted: "Micropost deleted"
+    should_be_less_than: "should be less than $%{size}MB"
+
+  shared:
+    micropost_form:
+      compose_new_micropost: "Compose new micropost..."
+      post: "Post"
+    user_info:
+      view_my_frofile: "View my profile"
+      micropost: "micropost"

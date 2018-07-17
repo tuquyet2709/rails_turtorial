@@ -2,9 +2,11 @@ maximum:
   max_email_length: 256
   max_name_length: 50
   max_user_per_page: 5
+  max_micropost_length: 140
 
 minimum:
   min_password_length: 6
+  min_picture_size: 5
 
 gravatar:
   gravatar_size: 80
