@@ -53,6 +53,8 @@ vi:
     create:
       check_your_email: "Kiểm tra email để kích hoạt tài khoản"
       error: "Lỗi, hãy thử lại"
+    show:
+      microposts: "Bài đăng"
 
   sign_up:
     welcome: "Chào mừng bạn đến với App mẫu"
@@ -110,3 +112,22 @@ vi:
       password_has_been_reset: "Mật khẩu đã được đặt lại."
     check_expiration:
       password_expired: "Mật khẩu đã hết hạn."
+
+  microposts:
+    micropost:
+      posted: "Đã đăng"
+      ago: "trước."
+      delete: "xoá"
+      you_sure: "Bạn chắc không?"
+      micropost_created: "Đã tạo tin!"
+      micropost_deleted: "Đã xoá tin"
+    should_be_less_than: "phải nhỏ hơn $%{size}MB"
+
+  shared:
+    micropost_form:
+      compose_new_micropost: "Tạo tin mới..."
+      post: "Đăng nhập"
+    user_info:
+      view_my_frofile: "Xem profile của tôi"
+      micropost: "tin"
+      
