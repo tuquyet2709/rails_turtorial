@@ -56,6 +56,14 @@ en:
       error: "Error, please try again"
     show:
       microposts: "Microposts"
+    follow:
+      following: "Following"
+      follower: "Follower"
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      microposts: "Microposts:"
 
   sign_up:
     welcome: "Welcome to the Sample App!"
