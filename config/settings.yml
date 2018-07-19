@@ -10,6 +10,7 @@ minimum:
 
 gravatar:
   gravatar_size: 80
-  gravatar_index_size : 50
+  gravatar_index_size: 50
+  gravatar_follow_size: 30
 
 max_time_password: 2

@@ -56,6 +56,14 @@ vi:
       error: "Lỗi, hãy thử lại"
     show:
       microposts: "Bài đăng"
+    follow:
+      following: "Đang theo dõi"
+      follower: "Người theo dõi"
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
+    show_follow:
+      microposts: "Các tin :"
 
   sign_up:
     welcome: "Chào mừng bạn đến với App mẫu"

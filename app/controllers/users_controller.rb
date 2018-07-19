@@ -66,6 +66,21 @@ class UsersController < ApplicationController
     UserMailer.account_activation(self).deliver_now
   end
 
+  def following
+    @title = t "users.follow.following"
+    @user = User.find_by id: params[:id]
+    @users = @user.following.paginate(page: params[:page])
+    render "show_follow"
+  end
+
+  def followers
+    @title = t "users.follow.follower"
+    @user = User.find_by id: params[:id]
+    @users = @user.followers.paginate(page: params[:page])
+    render "show_follow"
+  end
+
+
   private
 
   def user_param
